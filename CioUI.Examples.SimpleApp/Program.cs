@@ -14,7 +14,9 @@ namespace CioUI.Examples.SimpleApp
         [STAThread]
         static void Main()
         {
-            Application.StartFromXml(new FileStream("Application.xml", FileMode.Open));
+            CioApplication app = new CioApplication();
+            app.Initialize(RenderMode.WinForms);
+            app.Start();
         }
     }
 }

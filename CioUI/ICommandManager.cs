@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace CioUI
 {
-    public interface IFormStore
+    public interface ICommandManager
     {
-        string GetRenderType();
     }
 }

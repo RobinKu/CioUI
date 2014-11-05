@@ -39,17 +39,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Application.cs" />
-    <Compile Include="Application.statics.cs" />
+    <Compile Include="CioApplication.cs" />
+    <Compile Include="ICioApplication.cs" />
+    <Compile Include="ICommandManager.cs" />
     <Compile Include="IForm.cs" />
-    <Compile Include="IFormStore.cs" />
-    <Compile Include="IRenderer.cs" />
-    <Compile Include="NotARendererException.cs" />
+    <Compile Include="IFormManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Xml\XmlFormStore.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Xml\BindingExample.xml" />
+    <Compile Include="RenderMode.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<cioUIApplication startUpForm="contactEditor" renderType="Winforms">
-  <form id="contactEditor" name="Edit contact" bindingType="CioUI.Examples.Contact" formType="edit">
+<cioUIApplication startUpForm="mainWindow" renderType="Winforms">
+  <form id="mainWindow" title="Sample">
+    <navigation type="menu">
+      <command label="Edit contact" command="CioUI.Examples.SimpleApp.Commands.EditContact"/>
+    </navigation>
+    <formManager type="tabbed"/>
+  </form>
+  <form id="contactEditor" title="Edit contact" bindingType="CioUI.Examples.Contact" formType="edit">
     <group label="General">
       <editor label="Firstname" binding="Firstname"/>
       <editor label="Lastname" binding="Lastname"/>

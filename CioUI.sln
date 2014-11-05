@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{83
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CioUI.Examples.SimpleApp", "CioUI.Examples.SimpleApp\CioUI.Examples.SimpleApp.csproj", "{099011A5-7AD7-4F2E-A846-2CF580073C44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication1", "WpfApplication1\WpfApplication1.csproj", "{790EEC77-AD60-4B66-A43C-98F999E644B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,11 +37,16 @@ Global
 		{099011A5-7AD7-4F2E-A846-2CF580073C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{099011A5-7AD7-4F2E-A846-2CF580073C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{099011A5-7AD7-4F2E-A846-2CF580073C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{790EEC77-AD60-4B66-A43C-98F999E644B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{790EEC77-AD60-4B66-A43C-98F999E644B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{790EEC77-AD60-4B66-A43C-98F999E644B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{790EEC77-AD60-4B66-A43C-98F999E644B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{099011A5-7AD7-4F2E-A846-2CF580073C44} = {83571814-8A2B-4181-B51A-CE7DBB39329E}
+		{790EEC77-AD60-4B66-A43C-98F999E644B9} = {83571814-8A2B-4181-B51A-CE7DBB39329E}
 	EndGlobalSection
 EndGlobal

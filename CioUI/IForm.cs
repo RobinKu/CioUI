@@ -7,9 +7,12 @@ namespace CioUI
 {
     public interface IForm
     {
-        object RenderedForm
+        void Show();
+
+        ICommandManager CommandManager
         {
             get;
+            set;
         }
     }
 }
